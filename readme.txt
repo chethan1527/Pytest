@@ -1,49 +1,35 @@
-# Python Testing Project
+**Python Testing Project**
 
 A Python project demonstrating unit testing with pytest, featuring user management and database functionality.
 
-## Project Structure
+**Project Structure**
 
-```
+
 Python Testing/
-├── db.py           # Database class for user management
-├── main.py         # UserManager class
-├── test_db.py      # Tests for Database class
-└── test_main.py    # Tests for UserManager class
-```
+db.py             Database class for user management
+main.py           UserManager class
+test_db.py        Tests for Database class
+test_main.py      Tests for UserManager class
 
-## Features
+
+**Features**
 
 - **Database**: In-memory user database with add, get, and delete operations
 - **UserManager**: User management system with email storage
 - **Comprehensive Tests**: Full test coverage using pytest fixtures
 
-## Requirements
+**Requirements**
 
 - Python 3.x
 - pytest
 
-
-## Running Tests
-
-Run all tests:
-```bash
-pytest
-```
-
 Run specific test file:
-```bash
+bash
 pytest test_db.py
 pytest test_main.py
-```
-
-Run with verbose output:
-```bash
-pytest -v
-```
 
 
-## Testing Features
+**Testing Features**
 
 - Pytest fixtures for clean test isolation
 - Exception testing with pytest.raises
